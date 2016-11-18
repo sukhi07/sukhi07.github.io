@@ -1578,7 +1578,6 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -3125,3 +3124,188 @@
 			}
 
 	}
+
+
+/**** Sudhi ******/
+
+.fl   { float:left; } 
+.fr   { float:right; }
+.dn   { display:none;  } 
+.db   { display:block; }
+.dib  { display:inline-block }
+.clr  { clear:both; }
+.posRel { position:relative;} 
+.posAbs { position:absolute;}
+.vtop{vertical-align:top;}
+.vBot{vertical-align:bottom;}
+.vMid{vertical-align:middle;}
+.vv{ visibility:visible}
+.vh{ visibility:hidden}
+
+.oh{overflow:hidden}
+.ov{ overflow:visible}
+.lh1-7{line-height:1.7 !important;}
+.lh1-5{line-height:1.5 !important;}
+.lh1-3{line-height:1.3 !important;}
+.lh1-2{line-height:1.2 !important;}
+.lh-05{line-height:0.5 !important;}
+
+.greyBg{ background: @greyLtest1; }
+.whiteBg{ background: @white}
+.blueBg{ background: @blue}
+.yellowBg{ background: @yellow}
+
+.maxWidth90{ max-width:90%}
+.maxWidth80{ max-width:80%}
+.maxWidth70{ max-width:70%}
+
+.width100{ width:100%}
+.width90{ width:90%}
+.width80{ width:80%}
+.width70{ width:70%}
+.width60{ width:60%}
+.width50{ width:50%}
+.width40{ width:40%}
+.width30{ width:30%}
+.width20{ width:20%}
+.width10{ width:10%}
+
+.marginAuto{ margin:0 auto}
+
+.borderAll{ border:1px solid @greyLtest}
+.borderTop { border-top:1px solid @greyLtest}
+.borderBtm{ border-bottom:1px solid @greyLtest}
+.borderLeft{ border-left:1px solid @greyLtest}
+.borderRight{ border-right:1px solid @greyLtest}
+
+.txtCenter { text-align:center}
+.txtRight  { text-align:right}
+.txtLeft   { text-align:left}
+.strike    { text-decoration:line-through}
+.txtTransUpper{ text-transform:uppercase}
+.fn{ font-weight:normal; font-style:normal}
+.fb{ font-weight:bold; font-style:normal}
+.fmed{ font-weight:500; font-style:normal}
+.fi{ font-style:italic}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { .db;}
+.circleLoader{   background: url(/styleguide/images/circleLoader.GIF) no-repeat 50% 50%;
+  min-height:150px;}
+#gi_mid_in{ margin:0 auto; width:100%;}
+.padTB20 { padding-top:1.250em; padding-bottom:1.250em}
+.padLR20 { padding-left:1.250em; padding-right:1.250em}
+.padT20  { padding-top:1.250em}
+.padL20  { padding-left:1.250em}
+.padR20  { padding-right:1.250em}
+.padB20  { padding-bottom:1.250em}
+
+.padTB15 { padding-top:0.938em; padding-bottom:0.938em}
+.padLR15 { padding-left:0.938em; padding-right:0.938em}
+.padT15  { padding-top:0.938em}
+.padL15  { padding-left:0.938em}
+.padR15  { padding-right:0.938em}
+.padB15  { padding-bottom:0.938em}
+
+.padTB10 { padding-top:0.625em; padding-bottom:0.625em}
+.padLR10 { padding-left:0.625em; padding-right:0.625em}
+.padT10  { padding-top:0.625em}
+.padB10  { padding-bottom:0.625em}
+.padL10  { padding-left:0.625em}
+.padR10  { padding-right:0.625em}
+
+.padLR5  { padding-left:0.313em; padding-right:0.313em}
+.padTB5  { padding-top:0.313em; padding-bottom:0.313em}
+.padT5   { padding-top:0.313em}
+.padB5   { padding-bottom:0.313em}
+.padL5   { padding-left:0.313em}
+.padR5   { padding-right:0.313em}
+
+.padLR4  { padding-left:0.250em; padding-right:0.250em}
+.padTB4  { padding-top:0.250em; padding-bottom:0.250em}
+.padT4   { padding-top:0.250em}
+.padB4   { padding-bottom:0.250em}
+.padL4   { padding-left:0.250em}
+.padR4   { padding-right:0.250em}
+
+.padLR3  { padding-left:0.188em; padding-right:0.188em}
+.padTB3  { padding-top:0.188em; padding-bottom:0.188em}
+.padT3   { padding-top:0.188em}
+.padB3   { padding-bottom:0.188em}
+.padL3   { padding-left:0.188em}
+.padR3   { padding-right:0.188em}
+
+.padLR2  { padding-left:0.125em; padding-right:0.125em}
+.padTB2  { padding-top:0.125em; padding-bottom:0.125em}
+.padT2   { padding-top:0.125em}
+.padB2   { padding-bottom:0.125em}
+.padL2   { padding-left:0.125em}
+.padR2   { padding-right:0.125em}
+
+.padLR1  { padding-left:0.063em; padding-right:0.063em}
+.padTB1  { padding-top:0.063em; padding-bottom:0.063em}
+.padT1   { padding-top:0.063em}
+.padB1   { padding-bottom:0.063em}
+.padL1   { padding-left:0.063em}
+.padR1   { padding-right:0.063em}
+
+.pad0    { padding:0 !important}
+.pad1    { padding:0.063em}
+.pad2    { padding:0.125em}
+.pad3    { padding:0.188em}
+.pad4    { padding:0.250em}
+.pad5    { padding:0.313em}
+.pad10   { padding:0.625em}
+.pad15   { padding:0.938em}
+.pad20   { padding:1.250em}
+.pad25   { padding:1.563em}
+
+.marginT2   { margin-top:2px}
+.marginTB20 { margin-top:20px; margin-bottom:20px}
+.marginLR20 { margin-left:20px; margin-right:20px}
+.marginT20  { margin-top:20px}
+.marginL20  { margin-left:20px}
+.marginR20  { margin-right:20px}
+.marginB20  { margin-bottom:20px}
+
+.marginTB15 { margin-top:15px; margin-bottom:15px}
+.marginLR15 { margin-left:15px; margin-right:15px}
+.marginT15  { margin-top:15px}
+.marginL15  { margin-left:15px}
+.marginR15  { margin-right:15px}
+.marginB15  { margin-bottom:15px}
+
+.marginTB10 { margin-top:10px; margin-bottom:10px}
+.marginLR10 { margin-left:10px; margin-right:10px}
+.marginT10  { margin-top:10px}
+.marginB10  { margin-bottom:10px}
+.marginL10  { margin-left:10px}
+.marginR10  { margin-right:10px}
+
+.marginLR5  { margin-left:5px; margin-right:5px}
+.marginTB5  { margin-top:5px; margin-bottom:5px}
+.marginT5   { margin-top:5px}
+.marginB5   { margin-bottom:5px}
+.marginL5   { margin-left:5px}
+.marginR5   { margin-right:5px}
+
+.margin0    { margin:0 !important}
+.margin5    { margin:5px}
+.margin10   { margin:10px}
+.margin15   { margin:15px}
+.margin20   { margin:20px}
+.margin25   { margin:25px}
+
+.marginTM5 { margin-top:-5px}
+.marginTM10 { margin-top:-10px}
+.marginTM15 { margin-top:-15px}
+.marginTM20 { margin-top:-20px}
+.mobdn{ display:none !important;}
+.mobdb{ display:block !important;}
+
+.headcolor { color: #49bf9d}
+.blackcolor { color: #787878 !important}
+
+.ico12 {font-size: 12px;}
+.ico14 {font-size: 14px;}
+.ico16 {font-size: 16px;}
+.ico18{font-size: 18px;}
+.ico20{font-size: 20px;}
